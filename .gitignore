@@ -1,4 +1,40 @@
+# === Python cache & bytecode ===
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# === Jupyter Notebooks (if you ever add them) ===
+.ipynb_checkpoints/
+
+# === Environment files ===
 .env
+.venv/
+env/
+venv/
+
+# === Dataset files ===
 *.csv
+*.tsv
+*.xlsx
+
+# === Model training outputs ===
+sentiment_model/
+results/
+checkpoints/
+*.bin
+*.pt
+*.json
+
+# === Gradio/Streamlit temp files ===
+*.log
+*.tmp
+
+# === OS / Editor files ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Git / LFS ===
+*.lock
+*.bak
